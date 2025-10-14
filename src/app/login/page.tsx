@@ -61,7 +61,7 @@ export default function LoginPage() {
 
           <button
             type="submit"
-            className="bg-blue-600 w-full text-white py-2 rounded hover:bg-blue-700"
+            className="bg-blue-600 w-full text-white py-2 rounded hover:bg-blue-700 cursor-pointer"
           >
             Masuk
           </button>
