@@ -1,6 +1,6 @@
 # Surathub PT BAK
 
-**Surathub** adalah sistem manajemen surat digital yang dikembangkan untuk mendukung kegiatan administrasi perkantoran di **PT Berkah Adha Kreasindo**.  
+**Surathub** adalah sistem manajemen surat digital yang dikembangkan untuk mendukung kegiatan administrasi perkantoran di **PT BAK**.  
 Aplikasi ini membantu pencatatan **surat masuk**, **surat keluar**, dan **penomoran surat** secara otomatis dan terintegrasi.
 
 ---
@@ -27,4 +27,14 @@ Aplikasi ini membantu pencatatan **surat masuk**, **surat keluar**, dan **penomo
 
 ---
 
-## 🗂️ Struktur Utama
+🧾 Lisensi
+
+Proyek ini bersifat internal untuk PT BAK.
+Hak cipta © 2025 PT BAK. Semua hak dilindungi.
+
+👤 Pengembang
+
+Angga Al Rasyid
+📧 [berkahadhakreasindo@gmail.com
+]
+💻 https://github.com/anggacocor
