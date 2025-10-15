@@ -149,7 +149,7 @@ export default function DashboardPage() {
                 <li key={item.id} className="border-b py-2">
                   <p className="font-medium font-blue-500">{item.no_surat}</p>
                   <p className="text-gray-500 text-xs">
-                    Kepada: {item.tujuan} | {item.tanggal_surat}
+                    Kepada: {item.tujuan} | {item.tanggal_surat} 
                   </p>
                 </li>
               ))}
