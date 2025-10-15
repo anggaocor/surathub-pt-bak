@@ -41,13 +41,13 @@ export default function DashboardPage() {
       const { data: masuk } = await supabase
         .from("surat_masuk")
         .select("*")
-        .order("tanggal_terima", { ascending: false })
+        .order("tanggal_surat", { ascending: false })
         .limit(5);
 
       const { data: keluar } = await supabase
         .from("surat_keluar")
         .select("*")
-        .order("tanggal_kirim", { ascending: false })
+        .order("tanggal_surat", { ascending: false })
         .limit(5);
 
       setRecentMasuk(masuk || []);
@@ -130,7 +130,7 @@ export default function DashboardPage() {
                 <li key={item.id} className="border-b py-2">
                   <p className="font-medium">{item.no_surat}</p>
                   <p className="text-gray-500 text-xs">
-                    Dari: {item.pengirim} | {item.tanggal_terima}
+                    Dari: {item.pengirim} | {item.tanggal_surat}
                   </p>
                 </li>
               ))}
@@ -149,7 +149,7 @@ export default function DashboardPage() {
                 <li key={item.id} className="border-b py-2">
                   <p className="font-medium">{item.no_surat}</p>
                   <p className="text-gray-500 text-xs">
-                    Kepada: {item.tujuan} | {item.tanggal_kirim}
+                    Kepada: {item.tujuan} | {item.tanggal_surat}
                   </p>
                 </li>
               ))}
