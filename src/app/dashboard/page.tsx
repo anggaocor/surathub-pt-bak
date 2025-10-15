@@ -128,7 +128,7 @@ export default function DashboardPage() {
             <ul className="text-sm">
               {recentMasuk.map((item) => (
                 <li key={item.id} className="border-b py-2">
-                  <p className="font-medium font-blue-500">{item.no_surat}</p>
+                  <p className="font-medium text-blue-500">{item.no_surat}</p>
                   <p className="text-gray-500 text-xs">
                     Dari: {item.pengirim} | {item.tanggal_surat}
                   </p>
@@ -147,7 +147,7 @@ export default function DashboardPage() {
             <ul className="text-sm">
               {recentKeluar.map((item) => (
                 <li key={item.id} className="border-b py-2">
-                  <p className="font-medium font-blue-500">{item.no_surat}</p>
+                  <p className="font-medium text-blue-500">{item.no_surat}</p>
                   <p className="text-gray-500 text-xs">
                     Kepada: {item.tujuan} | {item.tanggal_surat} 
                   </p>
